@@ -1,0 +1,147 @@
+body {
+	margin: 0.5% 2%;
+}
+.bigContainer {
+	width: 100%;
+	height: 500px;
+	border: 1px solid #06863e;
+	padding: 0;
+	margin: 0;
+	background: -webkit-linear-gradient(left, #ADFF2F, #98FB98);
+}
+.contentContainer {
+	width: 66%;
+	height: 660px;
+	display: inline-block;
+}
+.formContainer {
+	width: 33.5%;
+	height: 500px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	border-left: 2px dashed #32CD32;
+}
+.formBox {
+	border: 2px solid #556B2F;
+	width: 280px;
+	height: 300px;
+	text-align: center;
+	padding-top: 60px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.85);
+	border-radius: 8px;
+}
+.register {
+	font-size: 25px;
+}
+.textBox {
+	background: rgba(0, 0, 0, 0.2);
+	margin: 5px;
+    width: 180px;
+    border: none;
+    resize: none;
+    border-radius: 8px;
+    padding: 9px;
+    box-shadow: 0px 1px 0px rgba(225, 225, 225, 0.2), 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+input:focus {
+	outline: none;
+}
+.text {
+	font-size: 19px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	margin-top: 5px;
+}
+#name::-webkit-input-placeholder {
+	font-size: 15px;
+}
+#email::-webkit-input-placeholder {
+	font-size: 15px;
+}
+.bottom-bar{
+   width:100%;
+   height:100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #06863e;
+    border-bottom: 1px solid #06863e;
+    border-right: 1px solid #06863e;
+}
+
+li{
+   display:inline-block;
+   width:20%;
+   color:#06863e;
+   font-size:110%;
+}
+
+.womens-init-logo{
+   margin-left:5px;
+   float:left;
+}
+
+.womens-init-text{
+   margin-right:100px;
+   float:right;
+}
+.invitation-text {
+	width: 100%;
+	height: 250px;
+	position: relative;
+}
+.art-as-therapy {
+	color: #008442;
+	margin: 0;
+  	text-align: center;
+	font-size: 122px;
+	transform: scale(1, 1);
+	font-family: 'Lato', sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+.therapy-desc {
+	display: inline-block;
+	color: #008442;
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Cherry Swash', cursive;
+}
+.therapy-loc {
+	color: #008442;
+	margin: 0;
+	text-align: center;
+	font-size: 40px;
+	font-family: "futura", sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+.invitation-desc {
+	width: 100%;
+	height: 125px;
+	position: relative;
+}
+.invitation-loc {
+	width: 100%;
+	height: 125px;
+	position: relative;
+}
