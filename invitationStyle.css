@@ -1,5 +1,8 @@
 body {
-	margin: 0.5% 2%;
+	margin: 0;
+}
+html {
+	margin: 0;
 }
 .bigContainer {
 	width: 100%;
@@ -7,11 +10,10 @@ body {
 	border: 1px solid #06863e;
 	padding: 0;
 	margin: 0;
-	background: -webkit-linear-gradient(left, #ADFF2F, #98FB98);
+	background-color: #58B947;
 }
 .contentContainer {
 	width: 66%;
-	height: 660px;
 	display: inline-block;
 }
 .formContainer {
@@ -20,7 +22,6 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
-	border-left: 2px dashed #32CD32;
 }
 .formBox {
 	border: 2px solid #556B2F;
@@ -39,8 +40,10 @@ body {
 }
 .register {
 	font-size: 25px;
+	font-family: 'futura', sans-serif;
 }
 .textBox {
+	font-family: 'futura', sans-serif;
 	background: rgba(0, 0, 0, 0.2);
 	margin: 5px;
     width: 180px;
@@ -78,25 +81,29 @@ ul {
     margin: 0;
     padding: 0;
     border-left: 1px solid #06863e;
-    border-bottom: 1px solid #06863e;
+    border-bottom: 10px solid #06863e;
     border-right: 1px solid #06863e;
+    background-color: #06863e;
 }
 
 li{
    display:inline-block;
    width:20%;
-   color:#06863e;
+   color:white;
    font-size:110%;
 }
 
 .womens-init-logo{
    margin-left:5px;
    float:left;
+   font-family:'futura', sans-serif;
+   text-align: center;
 }
 
 .womens-init-text{
    margin-right:100px;
    float:right;
+   font-family:'futura', sans-serif;
 }
 .invitation-text {
 	width: 100%;
@@ -104,33 +111,34 @@ li{
 	position: relative;
 }
 .art-as-therapy {
-	color: #008442;
+	color: white;
 	margin: 0;
   	text-align: center;
 	font-size: 122px;
 	transform: scale(1, 1);
 	font-family: 'Lato', sans-serif;
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
 }
 .therapy-desc {
 	display: inline-block;
-	color: #008442;
+	color: #E6F5E4;
 	text-align: center;
+	margin-top: -4%;
 	font-size: 28px;
 	font-family: 'Cherry Swash', cursive;
 }
 .therapy-loc {
-	color: #008442;
+	color: #E6F5E4;
 	margin: 0;
 	text-align: center;
 	font-size: 40px;
 	font-family: "futura", sans-serif;
 	position: absolute;
-	top: 50%;
+	top: 10%;
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
@@ -145,3 +153,39 @@ li{
 	height: 125px;
 	position: relative;
 }
+
+@media screen and (max-width: 1249px){
+	.art-as-therapy {
+		font-size: 100px;
+	}
+}
+
+@media screen and (max-width: 1039px){
+	.therapy-loc {
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 844px){
+	.therapy-desc {
+		font-size: 20px;
+		margin-top: 1%;
+	}
+	.therapy-loc {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 824px){
+	.therapy-desc {
+		display: block;
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 819px){
+	.therapy-desc {
+		margin-top: 1%;
+	}
+}
+
